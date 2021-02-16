@@ -24,8 +24,7 @@ sudo apt-get install python3-pip
 
 Agora iremos instalar o Jupyter Notebook. Para isso execute o comando abaixo:
 ```console
-pip3 install jupyter-lab
-pip3 install notebook
+pip3 install jupyter
 ```
 
 Se você tiver instalado o pip e não o pip3, basta substituir "pip3" nos comandos anteriores por "pip".
@@ -60,4 +59,4 @@ Existem duas maneiras de rodar o código:
 - Rodar todos os códigos de uma vez: Clique em "Kernel" > "Restart & Clear Output" > "Cell" > "Run All"
 - Rodar um por um: Clique em "Kernel" > "Restart & Clear Output" > Selecione a célula que deseja executar > Clicar em "Run". Observação: As células deverão ser executadas na ordem que estão apresentadas.
 
-**IMPORTANTE**: caso você não possua as bibliotecas necessárias instaladas no seu computador, clique na primeira célula de código (onde fala que irá instalar as bibliotecas necessárias) e espera executar. Depois que terminar, clique em "Kernel" > "Restart & Clear Output". Depois disso você estará pronto para rodar o código!
+**IMPORTANTE**: caso você não possua as bibliotecas necessárias instaladas no seu computador, clique na primeira célula de código (onde fala que irá instalar as bibliotecas necessárias) e espere executar. Depois que terminar, clique em "Kernel" > "Restart & Clear Output". Depois disso você estará pronto para rodar o código!
